@@ -2585,8 +2585,8 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 }
 .digi-class {
     background: #f9f9f9;
-    height: 285px;
-	position:relative;
+/*    height: 285px;
+*/	position:relative;
 }
 .farm-gyan {
     height: 180px;
@@ -2955,7 +2955,10 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 
 /*******contact pages*********/
 .contact-banner{
-	background: url("../img/contact.jpg");
+	/*background: url("../img/contact.jpg");*/
+	background: #7474BF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 680px;
 	position:relative;
 	background-attachment: fixed;
