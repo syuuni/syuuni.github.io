@@ -819,13 +819,13 @@ ul .submenu ul.dropdown-menu:after{
 .submenu:hover .dropdown-menu{
 	display: block;
 }
-@media (min-width: 768px){
+/*@media (min-width: 768px){
 	.submenu:focus-within .dropdown-menu{
 	display: block;
 }@media (min-width: 400px){
 	.submenu:focus-within .dropdown-menu{
 	display: block;
-}
+}*/
 }
 
 /* 3.6.5 Hover
