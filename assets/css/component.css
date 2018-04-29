@@ -812,12 +812,20 @@ ul .submenu ul.dropdown-menu:after{
 	letter-spacing:inherit !important;
 	color:#000 !important;
 }
-.submenu .dropdown-menu a:hover,
+.submenu .dropdown-menu ,
 .submenu .dropdown-menu li.active a {
 	color:#c91d61 !important;
 }
 .submenu:hover .dropdown-menu{
 	display: block;
+}
+@media (min-width: 768px){
+	.submenu:focus-within .dropdown-menu{
+	display: block;
+}@media (min-width: 400px){
+	.submenu:focus-within .dropdown-menu{
+	display: block;
+}
 }
 
 /* 3.6.5 Hover
@@ -2548,12 +2556,12 @@ div.pp_default a.pp_arrow_next {
 
 /*******about pages*********/
 .aboutpage-banner{
-/*	background: url("../uploads/66421about_us_bg.jpg");
+	background: url("../uploads/about-autotankwelder.jpg");
 
-*/
-background: #7474BF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* background: #7474BF; 
+background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
+background: linear-gradient(to right, #348AC7, #7474BF); Z */
 
 	height: 680px;
 	position:relative;
@@ -2568,7 +2576,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     top: 50%;
 	transform: translatey(-50%);
     text-align: center;
-    color: #fff;
+    color: #002055;
 	z-index: 1;
 }
 .overlay-aboutpage {
